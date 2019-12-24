@@ -161,8 +161,10 @@
     .footer #contact_us { display: flex; flex-direction: row; order: 1; padding: 2% 0; border-bottom: 1px solid silver; }
     .footer #contact_info { order: 1; padding: 2% 0; color: lightslategray;}
     .footer #kakao_talk {
-      order: 2; width: 100px; height: 25px; margin: 0 auto; position: relative; top: 10px; left: 10%; border: 1px solid lightslategray; text-align: center; }
+      order: 2; width: 100px; height: 25px; margin: 0 auto; position: relative; top: 10px; left: 10%;
+      border: 1px solid lightslategray; text-align: center; }
     .footer #kakao_talk span { font-size: 0.8rem; font-weight: 500;}
+    .footer #kakao_talk:hover { background-color: orange; }
 
     @media all and (min-width: 768px) {
       .footer { display: flex; flex-direction: row; font-size: 0.7rem; }
@@ -171,7 +173,7 @@
       .footer #contact_us { display: flex; flex-direction: row; order: 2; width: 50%; padding: 1% 1%; }
       .footer #contact_info {order: 1; float: left; width: 50%; }
       .footer #kakao_talk {
-        order: 2; width: 110px; height: 20px; margin: 0 auto; border: 1px solid lightslategray; padding: 2% 0%; text-align: center; }
+        order: 2; width: 110px; height: 15px; margin: 0 auto; border: 1px solid lightslategray; padding: 2% 0%; text-align: center; }
       .footer #kakao_talk span { font-size: 0.8rem; }
     }
     
@@ -182,7 +184,7 @@
       .footer #contact_us { display: flex; flex-direction: row; order: 2; width: 50%; padding: 1% 1%; }
       .footer #contact_info {order: 1; width: 50%; }
       .footer #kakao_talk {
-        order: 2; width: 110px; height: 20px; margin: 0 auto; border: 1px solid lightslategray; padding: 2% 0%; text-align: center; }
+        order: 2; width: 110px; height: 15px; margin: 0 auto; border: 1px solid lightslategray; padding: 2% 0%; text-align: center; }
       .footer #kakao_talk span { font-size: 0.8rem; }
     }
     /* footer: media query 종료 */
